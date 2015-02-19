@@ -108,9 +108,10 @@ h1 {
 .button {
     background-image: url('/img/uberbutton.png');
     background-size: cover;
-    width: 25em;
-    height: 4em;
+    width: 28em;
+    height: 4.5em;
     margin: 0 auto;
+    margin-bottom: 1ex;
 }
 
 img.logo {
@@ -148,8 +149,8 @@ img.logo {
     font-size: 2ex;
 }
 
-a {
-    text-decoration: none;
+.twitter-hashtag-button {
+    text-align: center;
 }
 /* ==========================================================================
    Helper classes
