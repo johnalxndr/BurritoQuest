@@ -89,7 +89,7 @@ textarea {
    ========================================================================== */
 
 body {
-    background-color: #492312
+    background-color: #492312;
 }
 
 header {
@@ -118,6 +118,11 @@ h4 {
     padding-top: 5em;
 }
 
+.logo-chips {
+    margin-top: -12em;
+    width: 8em;
+}
+
 .logo {
     width: 9em;
     margin-top: -28em;
@@ -136,9 +141,12 @@ h4 {
     background-size: cover;
     width: 26em;
     height: 4em;
-    margin: 0 auto;
     margin-bottom: 2ex;
-    margin-top:
+    margin: 0 auto;
+}
+
+.button:hover {
+    color: #a32d26;
 }
 
 .google-maps {
@@ -296,17 +304,37 @@ a:visited {
     }
     .logo {
         visibility: visible;
-        width: 9em;
-        margin-top: -20em;
+        width: 10em;
+        margin-top: -34em;
     }
     .button {
         width: 32em;
         height: 5em;
+        margin-left: 19%;
     }
 }
 /* Medium devices (desktops, 992px and up) */
 
-@media (min-width: 900px) {}
+@media (min-width: 900px) {
+    .button {
+        text-align: center;
+        margin-left: 27%
+    }
+    h1 {
+        font-size: 11em;
+    }
+    h3 {
+        font-size: 4em;
+    }
+    .logo {
+        width: 14em;
+        margin-left: -2em;
+        margin-bottom: 5em;
+    }
+    .logo-chips {
+        visibility: hidden;
+    }
+}
 /* Large devices (large desktops, 1200px and up) */
 /*
 @media (min-width: 1200px) {
