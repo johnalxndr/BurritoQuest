@@ -1,8 +1,8 @@
 $(document).ready(function () {
 
     //Uber API stuff  
-    var uberClientId = "WcDY4toB0xogrSdkoXj4azFMmOdNf0HA",
-        uberServerToken = "u4u_-5lXJ4rcfttAanM2s9WM75Mh6bBzM_ptp6f5";
+    var uberClientId = "YZMARkYx4LpRe98Rei8gDNSregO1UY0-",
+        uberServerToken = "oVqu6bVQq8A7EztylEdliAfs5fINMFpuhbrDNe25";
 
 
     var userLatitude,
@@ -21,7 +21,6 @@ $(document).ready(function () {
         if (typeof timer === typeof undefined) {
             timer = setInterval(function () {
                 getRates(userLatitude, userLongitude);
-
             }, 60000);
             getRates(userLatitude, userLongitude);
         }
