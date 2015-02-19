@@ -92,10 +92,36 @@ body {
     background-color: #492312
 }
 
+header {
+    clear: both;
+    margin-top: -2em
+}
+
 h1 {
     color: #a32d26;
     font-family: 'Amatic SC', cursive;
     font-size: 7em;
+}
+
+h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+    color: #e2cdc8;
+    margin-top: -2em;
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2ex;
+    color: #e2cdc8;
+    margin-bottom: -1em;
+    padding-top: 5em;
+}
+
+.logo {
+    width: 9em;
+    margin-top: -28em;
+    visibility: hidden;
 }
 
 .browsehappy {
@@ -108,16 +134,11 @@ h1 {
 .button {
     background-image: url('/img/uberbutton.png');
     background-size: cover;
-    width: 28em;
-    height: 4.5em;
+    width: 26em;
+    height: 4em;
     margin: 0 auto;
-    margin-bottom: 1ex;
-}
-
-img.logo {
-    width: 9em;
-    margin-left: 35%;
-    margin-top: -4em;
+    margin-bottom: 2ex;
+    margin-top:
 }
 
 .google-maps {
@@ -150,7 +171,9 @@ img.logo {
 }
 
 .twitter-hashtag-button {
-    text-align: center;
+    float: right;
+    padding-top: 3px padding-right: 3px;
+    clear: both;
 }
 /* ==========================================================================
    Helper classes
@@ -254,10 +277,36 @@ img.logo {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/* Small devices (tablets, 768px and up) */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (min-width: 700px) {
+    h1 {
+        font-size: 8em;
+    }
+    h3 {
+        font-size: 3em;
+    }
+    .logo {
+        visibility: visible;
+        width: 9em;
+        margin-top: -20em;
+    }
+    .button {
+        width: 32em;
+        height: 5em;
+    }
 }
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 900px) {}
+/* Large devices (large desktops, 1200px and up) */
+/*
+@media (min-width: 1200px) {
+    
+        
+    }
+}
+*/
 
 @media print,
 (-o-min-device-pixel-ratio: 5/4),

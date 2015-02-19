@@ -48,8 +48,8 @@ $(document).ready(function () {
                 var uberx = data[0]
                 if (typeof uberx != typeof undefined) {
                     console.log("updating time..");
-                    $("#time").html("IN " + Math.floor(uberx.duration / 60.0) + "MIN");
-                    $("#price").html("FOR $ " + uberx.low_estimate);
+                    $("#time").html("Your Ride Is " + Math.floor(uberx.duration / 60.0) + "Min Away");
+                    $("#price").html("For $" + uberx.low_estimate);
                 }
             }
         });
