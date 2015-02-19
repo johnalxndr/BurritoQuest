@@ -2,7 +2,7 @@ $(document).ready(function () {
 
     //Uber API stuff  
     var uberClientId = "WcDY4toB0xogrSdkoXj4azFMmOdNf0HA",
-        uberServerToken = "XQysa0CmCYawqY6t8v7eWsaS7Xb3rOIRb38zqulZ";
+        uberServerToken = "u4u_-5lXJ4rcfttAanM2s9WM75Mh6bBzM_ptp6f5";
 
 
     var userLatitude,
@@ -23,8 +23,7 @@ $(document).ready(function () {
                 getRates(userLatitude, userLongitude);
 
             }, 60000);
-            console.debug(userLatitude)
-                //    getRates(userLatitude,userLongitude);
+            getRates(userLatitude, userLongitude);
         }
     });
 

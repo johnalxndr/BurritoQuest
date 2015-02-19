@@ -123,17 +123,26 @@ small {
 }
 
 .button {
-    background-image: url('/app/images/uberbutton.png');
+    background-image: url('/img/uberbutton.png');
     background-size: cover;
     width: 25em;
     height: 4em;
     margin: 0 auto;
 }
 
-#googleMap {
-    margin-top: 6em;
-    border: solid 10px #581515;
-    margin-bottom: 5em;
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 #price {
