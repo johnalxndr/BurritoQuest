@@ -137,7 +137,7 @@ h4 {
 }
 
 .button {
-    background-color: #e0e0e0;
+    background-image: url(/img/uberbutton.png);
     background-size: cover;
     width: 26em;
     height: 4em;
