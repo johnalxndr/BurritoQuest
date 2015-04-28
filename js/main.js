@@ -48,8 +48,8 @@ $(document).ready(function () {
                 var uberx = data[0]
                 if (typeof uberx != typeof undefined) {
                     console.log("updating time..");
-                    $("#time").html("Your Ride Is " + Math.floor(uberx.duration / 60.0) + "Min Away");
-                    $("#price").html("For $" + uberx.low_estimate);
+                    $("#time").html(Math.floor(uberx.duration / 60.0) + 'min');
+                    $("#price").html('$' + uberx.low_estimate);
                 }
             }
         });
@@ -74,4 +74,5 @@ $("a").click(function (event) {
 
     // Redirect to Uber
     window.location.href = uberURL;
+    
 });

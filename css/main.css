@@ -93,14 +93,14 @@ body {
 }
 
 header {
-    clear: both;
-    margin-top: -2em
+    margin-bottom: -16em;
 }
 
 h1 {
     color: #a32d26;
     font-family: 'Amatic SC', cursive;
-    font-size: 7em;
+    font-size: 6em;
+    margin-top:0em;
 }
 
 h3 {
@@ -114,18 +114,9 @@ h4 {
     font-family: 'Amatic SC', cursive;
     font-size: 3ex;
     color: #e2cdc8;
-    margin-bottom: -1em;
-    padding-top: 5em;
-}
-
-.logo-chips {
-    margin-top: -12em;
-    width: 8em;
 }
 
 .logo {
-    width: 9em;
-    margin-top: -28em;
     visibility: hidden;
 }
 
@@ -136,15 +127,19 @@ h4 {
     padding: 0.2em 0;
 }
 
-.button {
-    background-image: url(/img/uberbutton.png);
-    background-size: cover;
-    width: 26em;
-    height: 4em;
-    margin-bottom: 2ex;
-    margin: 0 auto;
-}
+div > div > div > p {
+    font-size:2.5ex;
+    color: #a32d26;
 
+}
+div > div > a.uber-button{
+    margin-top:3ex;
+}
+div > div > a > span{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+
+}
 .button:hover {
     color: #a32d26;
 }
@@ -155,6 +150,7 @@ h4 {
     height: 0;
     overflow: hidden;
     border: 9px solid #a32d26;
+    margin-bottom: 1em;
 }
 
 .google-maps iframe {
@@ -163,19 +159,20 @@ h4 {
     left: 0;
     width: 100%;
     height: 100%;
+    margin-bottom: 1em;
 }
 
 #price {
     text-align: right;
     padding-right: 4.3ex;
-    font-size: 2ex;
+    font-size: 3ex;
     color: #a32d26;
 }
 
 #time {
     text-align: right;
     padding-right: 4ex;
-    font-size: 2ex;
+    font-size: 3ex;
     color: #a32d26;
 }
 
@@ -191,6 +188,10 @@ a:link {
 
 a:visited {
     text-decoration: none;
+}
+footer{
+    background-color: #a32d26;
+    clear:both;
 }
 /* ==========================================================================
    Helper classes
@@ -297,44 +298,12 @@ a:visited {
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 700px) {
-    h1 {
-        font-size: 8em;
-    }
-    h3 {
-        font-size: 3em;
-    }
-    .logo {
-        visibility: visible;
-        width: 10em;
-        margin-top: -34em;
-    }
-    .button {
-        width: 32em;
-        height: 5em;
-        margin-left: 19%;
-    }
+
 }
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 900px) {
-    .button {
-        text-align: center;
-        margin-left: 27%
-    }
-    h1 {
-        font-size: 11em;
-    }
-    h3 {
-        font-size: 4em;
-    }
-    .logo {
-        width: 14em;
-        margin-left: -2em;
-        margin-bottom: 5em;
-    }
-    .logo-chips {
-        visibility: hidden;
-    }
+
 }
 /* Large devices (large desktops, 1200px and up) */
 /*
