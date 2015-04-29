@@ -94,13 +94,15 @@ body {
 
 header {
     margin-bottom: -16em;
+    clear: both;
 }
 
 h1 {
     color: #a32d26;
     font-family: 'Amatic SC', cursive;
-    font-size: 6em;
+    font-size: 5em;
     margin-top:0em;
+    clear: both;
 }
 
 h3 {
@@ -115,7 +117,9 @@ h4 {
     font-size: 3ex;
     color: #e2cdc8;
 }
-
+.bg-danger{
+    clear: both;
+}
 .logo {
     visibility: hidden;
 }
